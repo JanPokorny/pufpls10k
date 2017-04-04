@@ -1,0 +1,66 @@
+svg *
+{
+	stroke: {{foreground}};
+	stroke-width: 4;
+	fill: none;
+}
+
+@keyframes k1 { from { stroke-dashoffset: 251; } }
+@keyframes k2 { from { stroke-dashoffset: 151; } }
+@keyframes k3 { from { stroke-dashoffset: 361; } }
+@keyframes k4 { from { stroke-dashoffset: 39;  } }
+@keyframes k5 { from { stroke-dashoffset: 205; } }
+@keyframes k6 { from { stroke-dashoffset: 210; } }
+@keyframes k7 { from { stroke-dashoffset: 361; } }
+
+@-webkit-keyframes k1 { from { stroke-dashoffset: 251; } }
+@-webkit-keyframes k2 { from { stroke-dashoffset: 151; } }
+@-webkit-keyframes k3 { from { stroke-dashoffset: 361; } }
+@-webkit-keyframes k4 { from { stroke-dashoffset: 39;  } }
+@-webkit-keyframes k5 { from { stroke-dashoffset: 205; } }
+@-webkit-keyframes k6 { from { stroke-dashoffset: 210; } }
+@-webkit-keyframes k7 { from { stroke-dashoffset: 361; } }
+
+#l *
+{
+	stroke: {{logocolor}};
+}
+
+#d *
+{
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-fill-mode: forwards;
+	stroke-dashoffset: 0;
+}
+
+#h
+{
+	fill: {{background}};
+	transform-origin: center;
+	-webkit-transform-origin: center;
+
+	opacity: 0;
+	transform: scale(1.7);
+	-webkit-transform: scale(1.7);
+
+	animation: slap 0.5s 1.7s forwards;
+	-webkit-animation: slap 0.5s 1.7s forwards;
+}
+
+@keyframes slap {
+  to {
+	opacity: 1;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+  }
+}
+
+@-webkit-keyframes slap {
+  to {
+	opacity: 1;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+  }
+}

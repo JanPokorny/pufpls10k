@@ -1,0 +1,20 @@
+<svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 840 270" xmlns="http://www.w3.org/2000/svg">
+	puf, pls -_-
+	<g id="l">
+		<!-- HEAD -->
+		<path d="M 600 120 C 600 55 653 2 719 2 C 784 2 837 55 837 120 C 837 186 784 239 719 239 C 653 239 600 186 600 120 M 736 89 L 798 89 L 736 89 M 600 120 Z M 641 89 L 703 89 L 641 89 Z"/>
+		<!-- HAND -->
+		<path id="h" d="M 649 235 Q 625 122 645 121 C 652 121 652 130 656 142 Q 659 151 664 169 Q 683 65 698 66 Q 714 67 694 166 Q 715 62 731 65 Q 747 67 718 167 Q 740 75 754 81 Q 765 86 740 173 Q 763 89 777 102 C 784 110 766 169 759 186 Q 752 203 719 260"/>
+	</g>
+
+	<!-- puf, pls -->
+	<g id="d">
+		<path style="stroke-dasharray: 251; animation-name: k1;" d=" M 497 86 Q 427 86 427 111 C 426 140 501 111 499 150 Q 499 168 428 167"/>
+		<line style="stroke-dasharray: 151; animation-name: k2;" x1="403" x2="403" y1="168" y2="17"/>
+		<path style="stroke-dasharray: 361; animation-name: k3;" d="M 305 254 L 305 86 Q 382 87 380 128 Q 379 168 305 170"/>
+		<line style="stroke-dasharray: 39;  animation-name: k4;" x1="237" x2="223" y1="160" y2="196"/>
+		<path style="stroke-dasharray: 205; animation-name: k5;" d="M 196 85 L 218 85 M 204 168 L 205 30 Q 206 0 231 33"/>
+		<path style="stroke-dasharray: 210; animation-name: k6;" d="M 100 84 Q 88 167 135 167 Q 182 168 172 83"/>
+		<path style="stroke-dasharray: 361; animation-name: k7;" d="M 2 253 L 2 85 Q 79 86 77 127 Q 76 167 2 169"/>
+	</g>
+</svg>

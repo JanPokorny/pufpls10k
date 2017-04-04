@@ -1,0 +1,237 @@
+body
+{
+	margin: 0;
+	background-color: {{canvascolor}};
+	font-family: "Consolas", monospace;
+}
+
+h1, h2, h3
+{
+	line-height: 1.2;
+	margin-bottom: 10px;
+}
+
+h1
+{
+	font-size: 2em;
+
+	max-width: 840px;
+	display: block;
+	margin: auto;
+}
+
+svg
+{
+	display: block;
+	width: 100%;
+	height: 270px;
+	max-height: 30vw;
+}
+
+p
+{
+	margin-top: 5px;
+}
+
+a
+{
+	color: inherit;
+	font-weight: bold;
+}
+
+div
+{
+	max-width: 820px;
+	margin: auto;
+	line-height: 1.6;
+	color: {{foreground}};
+}
+
+section, footer
+{
+	overflow: hidden;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width: 100%;
+	background-color: {{background}};
+	box-shadow: 0 5px 40px #000;
+	margin: 0 0 200px 0;
+	padding: 10px;
+	position: relative;
+	z-index: 10;
+}
+
+section + section
+{
+	min-height: 100vh;
+}
+
+#c
+{
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.t a
+{
+	display: block;
+	text-decoration: none;
+	font-weight: normal;
+	height: 140px;
+	overflow: hidden;
+	transition: width 0.4s ease-in;
+	-webkit-transition: width 0.4s ease-in;
+}
+
+.t a h3
+{
+	font-size: 1.5em;
+	margin-top: 10px;
+	text-decoration: underline;
+}
+
+.t a::before
+{
+	content: "»";
+	float: left;
+	display: block;
+	width: 0;
+	height: 140px;
+	margin-right: 10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	
+	overflow: hidden;
+
+	font-size: 160px;
+	line-height: 120px;
+	color: white;
+
+	box-shadow: 0 0 10px black inset;
+	transition: width 0.4s ease-out;
+	-webkit-transition: width 0.4s ease-out;
+}
+
+.t a.r::before
+{
+	background-color: #A00;
+}
+
+.t a.g::before
+{
+	background-color: #0A0;
+}
+
+.t a.b::before
+{
+	background-color: #00A;
+}
+
+.t a.y::before
+{
+	background-color: #AA0;
+}
+
+.t a.k::before
+{
+	background-color: #222;
+}
+
+.t a:hover::before
+{
+	width: 90px;
+}
+
+footer
+{
+	background-color: {{foreground}};
+	color: {{background}};
+	margin: 0;
+	text-align: center;
+}
+
+
+/* MOBILE FIXES */
+
+body
+{
+	font-size: 16px;
+}
+
+.operamini h1
+{
+	width: 100%;
+	height: 150px;
+	overflow: hidden;
+}
+
+.operamini section
+{
+	margin: 0 0 20px 0;
+}
+
+.operamini .t a::before, .t a::before
+{
+	display: none;
+}
+
+.operamini .t a p, .t a p
+{
+	display: block;
+	width: auto;
+	max-width: auto;
+}
+
+.t a:hover
+{
+	width: auto;
+}
+
+
+@media screen and (min-width: 370px)
+{
+	.t a::before
+	{
+		display: block;
+	}
+
+	.t a:hover
+	{
+		width: calc(90px + 100%);
+	}
+
+	.t a p
+	{
+		display: inline-block;
+		width: calc(100vw - 140px);
+		max-width: 700px;
+	}
+
+	body
+	{
+		font-size: 18px;
+	}
+}
+
+@media screen and (min-width: 600px)
+{
+	body
+	{
+		font-size: 23px;
+	}
+}
+
+@media screen and (min-width: 870px) and (min-height: 800px)
+{
+	.t a p
+	{
+		font-size: 23px;
+	}
+	
+	body
+	{
+		font-size: 27px;
+	}
+}
