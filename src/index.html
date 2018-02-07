@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="cs">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -9,70 +10,83 @@
 
 	<!-- styles are in the <head> to improve performance -->
 	<style>
-		{{> ./style.css}}
-		{{> ./pufpls.css}}
+		{{>./style.css}}
+		{{>./pufpls.css}}
 	</style>
 
 	<noscript>
 		<style>
-			section
-			{
+			section {
 				margin: 0 0 50px 0;
 			}
 		</style>
 	</noscript>
 </head>
+
 <body>
 	<canvas id="c"></canvas>
-	
+
 	<section id="s0">
 		<h1>{{> ./pufpls.svg }}</h1>
-	
+
 		<div>
 			<p>
-				Hi, I’m <b>Jan “Puf” Pokorný</b>, web &amp; app developer from <b>Brno, Czech Republic</b>. I’m currently studying <b>informatics</b> at the <a href="https://www.fi.muni.cz/index.xhtml.en">Masaryk University in Brno</a>.
+				Hi, I’m
+				<b>Jan “Puf” Pokorný</b>, web &amp; app developer from
+				<b>Brno, Czech Republic</b>. I’m currently studying
+				<b>informatics</b> at the
+				<a href="https://www.fi.muni.cz/index.xhtml.en">Masaryk University in Brno</a>.
 			</p>
 			<p>
-				I enjoy writing <b>Javascript</b>, <b>C/C++</b>, <b>Python</b>, <b>C#</b>, <b>Haskell</b> and <b>weird short stories</b>.
+				I enjoy writing
+				<b>Javascript</b>,
+				<b>C++</b>,
+				<b>Python</b>,
+				<b>C#</b>,
+				<b>Haskell</b> and
+				<b>weird short stories</b>.
 			</p>
-			
+
 			<p>
-				Here’s my <a href="https://github.com/JanPokorny">GitHub</a> | <a href="https://linkedin.com/in/jan-pokorny">LinkedIn</a> | <a href="https://twitter.com/PufPls">Twitter</a>
+				Here’s my
+				<a href="https://github.com/JanPokorny">GitHub</a> |
+				<a href="https://linkedin.com/in/jan-pokorny">LinkedIn</a> |
+				<a href="https://twitter.com/PufPls">Twitter</a>
 			</p>
 		</div>
 	</section>
-	
+
 	<section id="s1">
 		<div class="t">
 			<h2>Things I’ve done</h2>
-			
-			<a class="r" href="http://veyrey.8u.cz/">
-				<h3>Veyrey</h3>
-				<p>A sophisticated tool for watching Czech movies</p>
-			</a>
-			
+
 			<a class="g" href="http://vzum.8u.cz/">
 				<h3>Vžum</h3>
 				<p>Download accelerator for Ulož.to (filesharing)</p>
 			</a>
-	
+
 			<a class="k" href="http://jsmf2016.tk/">
 				<h3>JSMF2016</h3>
 				<p>Web experience with fabulous scrolling effects</p>
 			</a>
-	
-			<a class="y" href="http://knightnight.tk/">
+
+			<a class="y" href="http://knightnight.8u.cz/">
 				<h3>#KnightNight</h3>
 				<p>Website for a science conference in Krnov</p>
 			</a>
-	
+
 			<a class="b" href="http://chemix.8u.cz/">
 				<h3>CheMix</h3>
 				<p>Online tool for balancing chemical equations</p>
 			</a>
+
+			<a class="r" href="http://veyrey.8u.cz/">
+				<h3>Veyrey</h3>
+				<p>Tool for watching Czech movies (deprecated)</p>
+			</a>
 		</div>
 	</section>
-	
+
 	<section id="s2">
 		<div>
 			<h2>About me</h2>
@@ -96,7 +110,7 @@
 			</p>
 		</div>
 	</section>
-	
+
 	<section id="s3">
 		<div>
 			<h2>Contact</h2>
@@ -113,19 +127,29 @@
 				</ul>
 			</p>
 			<p>
-				You can leave a message at <b>JanPokorny@null.net</b> or one of my social networks: <a href="https://github.com/JanPokorny">GitHub</a> | <a href="https://linkedin.com/in/jan-pokorny">LinkedIn</a> | <a href="https://twitter.com/PufPls">Twitter</a>.
+				You can leave a message at
+				<b>JanPokorny@null.net</b> or one of my social networks:
+				<a href="https://github.com/JanPokorny">GitHub</a> |
+				<a href="https://linkedin.com/in/jan-pokorny">LinkedIn</a> |
+				<a href="https://twitter.com/PufPls">Twitter</a>.
 			</p>
 			<h2>About this site</h2>
-			<p>This site was made for the Microsoft’s <a href="https://a-k-apart.com/">10k apart</a> contest. It weighs just <b>9.0kB</b>, or <b>3.6kB</b> after compression!</p>
-			<p><b>Thanks for visiting!</b></p>
+			<p>This site was made for the Microsoft’s
+				<a href="https://a-k-apart.com/">10k apart</a> contest. It weighs just
+				<b>9.0kB</b>, or
+				<b>3.6kB</b> after compression!</p>
+			<p>
+				<b>Thanks for visiting!</b>
+			</p>
 		</div>
 	</section>
-	
+
 	<footer>
 		&copy; 2016 Jan Pokorný
 	</footer>
-	
-	
-	<script>{{> ./script.js}}</script>
+
+
+	<script>{{>./script.js}}</script>
 </body>
+
 </html>
