@@ -1,0 +1,3 @@
+[submodule "janpokorny.github.io"]
+    path = dist
+    url = https://github.com/JanPokorny/janpokorny.github.io
