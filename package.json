@@ -9,8 +9,8 @@
   "author": "Jan Pokorný",
   "license": "All Rights Reserved",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-htmlmin": "^2.0.0",
+    "gulp": "^4.0.2",
+    "gulp-htmlmin": "^5.0.1",
     "gulp-mustache": "^2.2.0"
   }
 }
